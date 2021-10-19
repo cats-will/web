@@ -1,0 +1,120 @@
+/*
+    color: skyblue;
+    color: #5e6ebf;
+*/
+
+html {
+    font-family: Roboto, sans-serif;
+    --primary-color: #2f80ed;
+    --secondary-color: #f08913;
+    /* --bg-color: #264753; */
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(/home/catswill/web/CSS/pic/pic1.jpg);
+    background-attachment: fixed;
+}
+
+* {
+    color: var(--secondary-color);
+}
+
+
+/* a {
+    padding: 10px, 250px;
+    color: #8d6dad;
+} */
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    color: #5e6ebf;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: var(--primary-color);
+}
+
+h4 {
+    color: var(--primary-color)
+}
+
+a {
+    color: var(--primary-color);
+}
+
+img {
+    height: 450px;
+    width: 450px;
+}
+
+
+/* pre {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    overflow-y: hidden;
+    font-size: 12px;
+} */
+
+code {
+    font-family: Hack;
+    padding: 1px;
+    color: rgb(180, 201, 211);
+    font-size: 16px;
+}
+
+blockquote {
+    margin: 0;
+    background: white;
+    border-top: 5px solid #EAF9F9;
+    border-bottom: 5px solid #EAF9F9;
+    padding: 3px 9px 16px 320px;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    margin-bottom: 3em;
+    position: relative;
+}
+
+.cv {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contacts {
+    margin-bottom: 2em;
+}
+
+.contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.contact__type {
+    min-width: 90px;
+}
+
+.Sasuke {
+    color: white;
+    padding: 10px;
+}
+
+#Sasuke_id {
+    color: white;
+    margin-bottom: 1em;
+}
+
+.skill__name {
+    color: #5e6ebf;
+}
