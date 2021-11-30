@@ -11,8 +11,9 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(pic/pic1.jpg);
-
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(pic/pic1.jpg);  
+    /* box-shadow: 0 0 1000px rgba(0,0,0,0.7);
+    background: url(pic/pic1.jpg); */
     background-attachment: fixed;
 }
 
@@ -51,8 +52,8 @@ a {
 }
 
 img {
-    height: 450px;
-    width: 450px;
+    height: 400px;
+    width: 400px;
 }
 
 
@@ -118,4 +119,10 @@ section {
 
 .skill__name {
     color: #5e6ebf;
+}
+
+.Sasuke_img {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 20px 5px rgba(115, 119, 173, 0.7);
 }
