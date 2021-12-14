@@ -225,7 +225,10 @@ section {
 .lil_Sasuke {
     position: absolute;
     top: 400%;
-    float: left;
+    
     shape-margin: 20px;
 }
 
+.anime {
+    float: left;
+}
