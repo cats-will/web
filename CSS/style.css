@@ -3,6 +3,10 @@
     color: #5e6ebf;
 */
 
+header {
+    visibility: hidden;
+}
+
 html {
     font-family: Roboto, sans-serif;
     --primary-color: #2f80ed;
@@ -20,12 +24,6 @@ body {
 * {
     color: var(--secondary-color);
 }
-
-
-/* a {
-    padding: 10px, 250px;
-    color: #8d6dad;
-} */
 
 h1 {
     color: var(--primary-color);
@@ -57,15 +55,6 @@ img {
 }
 
 
-/* pre {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    overflow: auto;
-    overflow-y: hidden;
-    font-size: 12px;
-} */
-
 code {
     font-family: Hack;
     padding: 1px;
@@ -73,15 +62,6 @@ code {
     font-size: 16px;
 }
 
-.q {
-    /* padding: 10px;
-    border: 4px double black; 
-    background: rgb(238, 236, 232); 
-    width: 80px;
-    height: 50px; */
-    /* top: 500%; */
-    /* z-index: 2; */
-}
 
 blockquote {
     margin: 10px 30px 40px 250px; 
@@ -144,7 +124,6 @@ section {
 }
 
 .Sasuke_img {
-    /* display: inline; */
     width: 400px;
     height: 400px;
     box-shadow: 0px 0px 20px 5px rgba(115, 119, 173, 0.7);
@@ -203,6 +182,7 @@ section {
     left: 63%;
     top: 368.4%;
     transform: translate(-63%, -63%);
+    z-index: 2;
 }
 
 .box {
@@ -223,3 +203,28 @@ section {
     background-color: salmon;
     border: 2px solid #fff;
 }
+
+.naruto_pos {
+    position: absolute;
+    left: 87%;
+    top: 323%;
+    transform: translate(-63%, -63%);
+    z-index: 1;
+}
+
+.sharingan_pos {
+    float: left;
+
+}
+
+.p_pos {
+    position: absolute;
+    top: 400%;
+}
+
+.lil_Sasuke {
+    float:left;
+    shape-outside: url(pngedd.png);
+    shape-margin: 20px;
+}
+
