@@ -41,7 +41,7 @@ function hidePreloader() {
 function showError() {
     let error_elem = document.createElement("span");
     error_elem.className = "inner";
-    error_elem.innerText = "❌❌❌ ERROR LOADING DATA ❌❌❌";
+    error_elem.innerText = "ERROR LOADING DATA";
     let main = document.getElementById("main");
     main.appendChild(error_elem);
     main.className = "outer"

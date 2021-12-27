@@ -1,5 +1,5 @@
 function say_hi() {
-    window.prompt("как дела твои.........дружище......")
+    window.prompt("Hi")
 }
 
 function is_sure(){
@@ -43,7 +43,7 @@ function change_language() {
             sbm_button.innerText = "Отправить"
             clear_button.innerText = "Очистить"
             clear_table_button.innerText = "Очистить таблицу"
-            clue.innerText  = "*чтобы добавить больше задач, кликни на любой день недели :)"
+            clue.innerText  = "*чтобы добавить больше задач, кликни на любой день недели"
 
             header_table.forEach((elem, index) => {
                 elem.innerText = russian_header_table[index]
